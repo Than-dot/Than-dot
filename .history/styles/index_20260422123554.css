@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+header {
+  background-color: antiquewhite;
+}
+
+article {
+  background-color: aquamarine;
+  margin: 15rem;
+}
+
+aside {
+  background-color: blue;
+  margin: auto;
+}
+
+.stats {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+}

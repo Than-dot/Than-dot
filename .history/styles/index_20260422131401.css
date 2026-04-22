@@ -1,0 +1,46 @@
+.container1 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+header {
+  background-color: antiquewhite;
+}
+
+.f-art {
+  background-color: aquamarine;
+  margin: 15rem;
+  border: 20px solid grey;
+}
+
+.f-asi {
+  background-color: blue;
+  margin: 15rem;
+}
+
+.stats {
+  border: 20px solid grey;
+  text-align: center;
+}
+
+.s-art {
+}
+
+.s-asi {
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 1rem;
+}
+
+button {
+  margin: auto;
+}
+
+img {
+  height: 38px;
+  width: auto;
+  margin-left: 1rem;
+}

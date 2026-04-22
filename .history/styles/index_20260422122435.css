@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+}
+
+header {
+  background-color: antiquewhite;
+}
+
+article {
+  background-color: aquamarine;
+  margin: auto;
+}
+
+aside {
+  background-color: blue;
+  margin: auto;
+}

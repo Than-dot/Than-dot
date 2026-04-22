@@ -1,0 +1,62 @@
+.container1 {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: antiquewhite;
+}
+
+.f-art {
+  background-color: aquamarine;
+  margin: 5rem;
+  margin-top: 10rem;
+  border: 20px solid grey;
+}
+
+.f-asi {
+  background-color: blue;
+  margin: 5rem;
+  margin-top: 2rem;
+}
+
+.stats {
+  border: 20px solid grey;
+  text-align: center;
+}
+
+.s-art {
+}
+
+.s-asi {
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 1rem;
+}
+
+button {
+  margin: auto;
+  align
+}
+
+img {
+  height: 40px;
+  width: auto;
+  margin-left: 0.8rem;
+  border-radius: 10%;
+}
+
+.nav-center {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin-left: 50rem;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+}
