@@ -9,30 +9,39 @@
   </head>
 
   <body>
+    <!-- Header -->
     <header>
       <nav>
-        <img src="./assets/images/uncanny-cat-freaky.png" alt="cat" />
+        <a href="https://github.com/Than-dot/Than-dot"
+          ><img src="./assets/images/uncanny-cat-freaky.png" alt="cat"
+        /></a>
+
         <ul class="nav-center">
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
+    <!-- Intro -->
     <main>
       <section class="container1">
+        <p class="label">STUDENT IN COMPSCI</p>
         <article class="f-art"><h1>Than.</h1></article>
         <aside class="f-asi">
-          <p>I'm a Computer Science student, currently studying at JAC.</p>
-          <p>Looking forward to become an AI Engineer.</p>
-          <button>View Portfolio</button>
+          <p class="desc">
+            Computer Science student at JAC, looking forward to become an AI
+            Engineer
+          </p>
+          <a href="#about" class="buttons">View Portfolio</a>
         </aside>
       </section>
     </main>
+    <!-- About, Tech Stack, Projects-->
     <section class="container2">
-      <article class="stats">Stats</article>
-      <aside class="s-asi">
-        About Me
+      <article class="stats"><p>Stats</p></article>
+      <aside class="s-asi" id="about">
+        <h2 class="section-label">About Me</h2>
         <p>
           Currently a 1st year and about to become a 2nd year student at John
           Abbott College.
@@ -43,31 +52,51 @@
         </p>
       </aside>
       <article class="s-art">
-        My Tech Stack
+        <h2 class="section-label">My Tech Stack</h2>
         <p>C#</p>
         <p>HTML</p>
         <p>CSS</p>
         <p>JavaScript</p>
         <p>PowerShell</p>
       </article>
-      <p>Projects</p>
-      <article class="art-pro">Sudoku</article>
-
-      <p class="Sudoku">
-        Sudoku is one of projects I've done during my first at John Abbott
-        College. It has everything a normal Sudoku have, also difficulty change
-        and size change.
-      </p>
-
-      <a href="https://github.com/Than-dot/Project-Sudoku">Here</a>
+      <!--Projects-->
+      <article class="art-pro" id="projects">
+        <h2 class="section-label">Projects</h2>
+        <p class="project">Sudoku</p>
+        <p>
+          Sudoku is one of projects I've done during my first year at John
+          Abbott College. It is the one that I'm most proud of during the year.
+          It has everything a normal Sudoku have, also difficulty change and
+          size change.
+        </p>
+        <img src="./assets/images/image.png" alt="Sudoku" />
+        <a href="https://github.com/Than-dot/Project-Sudoku" class="buttons"
+          >View on GitHub</a
+        >
+      </article>
     </section>
-    <footer>
-      Contact
-      <article class="art-foot"></article>
-      <img
-        src="./assets/images/github-computer-icons-logo-repository-png-favpng-3D6iEY0b391hz9PYJZqnvKTLT-jukebox-bg-removed.png"
-        alt="github"
-      />
+    <!-- footer -->
+    <footer id="contact">
+      <p class="section-label">Contact</p>
+      <article class="art-foot">
+        <a href="mailto:thanpisitcan@gmail.com" class="link"
+          >thanpisitcan@gmail.com</a
+        >
+        <a href="https://github.com/Than-dot" class="link">
+          <img src="./assets/images/logo-03.cc5e5332.svg" alt="github"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/thanpisit-nimprasert-15076b403"
+          class="link"
+          ><img src="./assets/images/linkedin-banner.svg" alt="linkedin"
+        /></a>
+        <a href="https://www.instagram.com/thannn_nm/" class="link">
+          <img
+            src="./assets/images/instagram-2-1-logo-svgrepo-com.svg"
+            alt="ig"
+          />
+        </a>
+      </article>
     </footer>
   </body>
 </html>
