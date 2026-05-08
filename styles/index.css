@@ -155,7 +155,8 @@ h1 {
 /*  Text inside body  */
 .s-asi p,
 .s-art p,
-.art-pro p {
+.art-pro p,
+.s-art li {
   color: white;
   margin-bottom: 0.4rem;
   text-align: center;
