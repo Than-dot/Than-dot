@@ -1,0 +1,244 @@
+/*  body  */
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+/*  Nav */
+header {
+  position: sticky;
+  background-color: black;
+  top: 0;
+}
+.nav-center {
+  display: flex;
+  gap: 2rem;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e2c46a;
+}
+
+nav img {
+  height: 3rem;
+  width: auto;
+  border-radius: 10%;
+}
+
+.nav-center a:hover {
+  transition: color 0.2s;
+  color: #f3e6bf;
+}
+
+.nav-center a {
+  color: #e2c46a;
+  text-decoration: none;
+}
+/*  Container 1 */
+.container1 {
+  padding: 4rem 1rem 2rem;
+  border-bottom: 1px solid #e2c46a;
+}
+
+.label {
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.5rem;
+}
+
+.f-art {
+  margin-bottom: 1rem;
+  font-size: 2rem; /*Question should it stay here since it's page specific*/
+}
+
+.f-asi p {
+  margin: 0;
+  margin-bottom: 0.75rem;
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.f-asi a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 5rem;
+}
+
+.desc {
+  color: white;
+  max-width: 36rem;
+  margin: 0 0 2rem;
+}
+
+/*  Button and links  */
+.buttons {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background-color: #e2c46a;
+  color: black;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.buttons:hover {
+  transform: translateY(-1px);
+  box-shadow: 0px 0px 20px #e2c46a;
+  /*
+  #8 Rounded Pulse Button
+  https://dev.to/webdeasy/top-20-css-buttons-animations-f41
+  */
+}
+
+/*  Container 2 */
+
+.container2 {
+  padding: 1rem;
+}
+.stats {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e2c46a;
+}
+
+.stats p {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.s-art {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e2c46a;
+}
+
+.s-asi {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e2c46a;
+}
+
+.art-pro {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.art-pro img {
+  border-radius: 10%;
+  border: 1px solid #e2c46a;
+  margin: 1rem;
+}
+
+/*  Section label */
+
+.section-label {
+  font-weight: bold;
+  color: #e2c46a;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/*  Text inside body  */
+.s-asi p,
+.s-art p,
+.art-pro p,
+.s-art li {
+  color: white;
+  margin-bottom: 0.4rem;
+  text-align: center;
+}
+
+.project {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/*  Footer  */
+
+footer {
+  border-top: 1px solid #e2c46a;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.art-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.link {
+  color: #e2c46a;
+}
+
+.link img {
+  height: 2rem;
+  width: auto;
+  border-radius: 0.25rem;
+}
+
+/*  TABLET  |   48rem according to google search which is AI💔*/
+@media screen and (min-width: 48rem) {
+  body {
+    max-width: 75%;
+  }
+}
+
+/*  Desktop   |   64rem according to google search which is AI💔*/
+@media screen and (min-width: 64rem) {
+  body {
+    max-width: 100rem;
+    font-size: 1.25rem;
+  }
+
+  h1 {
+    font-size: 7rem;
+  }
+
+  .section-label {
+    font-size: 2.5rem;
+  }
+
+  .project {
+    font-size: 2rem;
+  }
+
+  nav img {
+    height: 4rem;
+  }
+
+  .container1 {
+    padding: 6rem 1rem 3rem;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .stats,
+  .art-pro {
+    grid-column: 1 / -1;
+  }
+
+  .label {
+    font-size: larger;
+  }
+}

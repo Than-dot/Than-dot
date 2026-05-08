@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+}
+
+header {
+    background-color: antiquewhite;
+    flex-direction: horizontal;
+}
+
+article {
+    background-color: aquamarine;
+}
+
+aside {
+    background-color: blue;
+}

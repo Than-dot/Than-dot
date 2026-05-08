@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+header {
+  background-color: antiquewhite;
+}
+
+.f-art {
+  background-color: aquamarine;
+  margin: 15rem;
+  border: 20px solid grey;
+}
+
+.f-asi {
+  background-color: blue;
+  margin: 15rem;
+}
+
+.stats {
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+}

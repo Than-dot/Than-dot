@@ -1,0 +1,172 @@
+/*  body  */
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+/*  Nav */
+.nav-center {
+  display: flex;
+  gap: 2rem;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e2c46a;
+}
+
+nav img {
+  height: 3rem;
+  width: auto;
+  border-radius: 10%;
+}
+
+.nav-center a:hover {
+}
+
+/*  Container 1 */
+.container1 {
+  padding: 2rem 1rem;
+}
+
+.f-art {
+  margin-bottom: 1rem;
+  font-size: 2rem; /*Question should it stay here since it's page specific*/
+}
+
+.f-asi p {
+  margin: 0;
+  margin-bottom: 0.75rem;
+  margin-left: 0.5rem;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+/*  Button and links  */
+.buttons {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.25rem;
+  background-color: #e2c46a;
+  color: black;
+}
+
+/*  Container 2 */
+
+.container2 {
+  padding: 1rem;
+}
+.stats {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e2c46a;
+}
+
+.s-art {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e2c46a;
+}
+
+.s-asi {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e2c46a;
+}
+
+.art-pro {
+  margin-bottom: 1.5rem;
+}
+
+/*  Section lebel */
+
+.section-lebel {
+  font-weight: bold;
+  color: #e2c46a;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+/*  Text inside body  */
+.s-asi p,
+.s-art p,
+.art-pro p {
+  color: white;
+  margin-bottom: 0.4rem;
+  text-align: left;
+}
+
+.project {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/*  Sudoku  */
+
+.Sudoku {
+  font-size: 80%;
+}
+/*  Footer  */
+
+footer {
+  border-top: 1px solid #e2c46a;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.art-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.link {
+  color: #e2c46a;
+}
+
+.link img {
+  height: 2rem;
+  width: auto;
+  border-radius: 0.25rem;
+}
+
+/*  TABLET  |   48rem according to google search which is AI💔*/
+@media screen and (min-width: 48rem) {
+  body {
+    max-width: 75%;
+  }
+}
+
+/*  Desktop   |   64rem according to google search which is AI💔*/
+@media screen and (min-width: 64rem) {
+  body {
+    max-width: 60rem;
+  }
+  .container1 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 1rem;
+  }
+  .f-art {
+    margin-bottom: 0;
+  }
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .stats,
+  .art-pro {
+    grid
+  }
+}

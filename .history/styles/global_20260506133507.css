@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Space-Grotesk;
+  src: url(/assets/font/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Space-Grotesk, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+button {
+  font-family: Space-Grotesk, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.f-art {
+  font-size: 2rem;
+}
+
+.Sudoku {
+  font
+}
