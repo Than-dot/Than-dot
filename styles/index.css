@@ -40,7 +40,7 @@ nav img {
 /*  Container 1 */
 .container1 {
   padding: 4rem 1rem 2rem;
-  border-bottom: 1px solid #e2c46a;
+  text-align: center;
 }
 
 .label {
@@ -52,7 +52,7 @@ nav img {
 
 .f-art {
   margin-bottom: 1rem;
-  font-size: 2rem; /*Question should it stay here since it's page specific*/
+  font-size: 2rem;
 }
 
 .f-asi p {
@@ -74,8 +74,8 @@ h1 {
 
 .desc {
   color: white;
-  max-width: 36rem;
-  margin: 0 0 2rem;
+  margin: auto;
+  padding-bottom: 1rem;
 }
 
 /*  Button and links  */
@@ -101,6 +101,22 @@ h1 {
 }
 
 /*  Container 2 */
+.briefstat {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.briefstat article {
+  border: 1px solid rgba(226, 196, 106, 0.2);
+  text-align: center;
+  padding-top: 1rem;
+}
+.briefstat a {
+  font-size: 2rem;
+}
+.title {
+  color: grey;
+}
 
 .container2 {
   padding: 1rem;
@@ -211,7 +227,6 @@ footer {
   h1 {
     font-size: 7rem;
   }
-
   .section-label {
     font-size: 2.5rem;
   }
@@ -223,7 +238,6 @@ footer {
   nav img {
     height: 4rem;
   }
-
   .container1 {
     padding: 6rem 1rem 3rem;
   }
